@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Plaimanas</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-container">
+			<ul class="currency">
+				<li class="item-currency">
+					<a class="currency-link" href="#">
+						TH - THB
+						<span class="icon-dropdown">▲</span>
+					</a>
+					<ul class="dropdown-currency">
+						<li>
+							<a class="currency-link" href="#">
+								US - USD
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<nav class="main-nav">
+				<ul class="main-menu">
+					<li class="menu-item">
+						<a class="menu-link" href="#">
+							women
+						</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#">
+							Collections
+						</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link has-submenu" href="#" data-submenu="editorial">
+							editorial
+						</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#">
+							news
+						</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-link" href="#">
+							stories
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="btn-menu-mobile-toggle">
+				<img class="icon-toggle active" src="assets/images/icon-bar.webp" alt="">
+				<img class="icon-toggle" src="assets/images/icon-close.webp" alt="">
+			</button>
+			<div class="users">
+				<a class="btn-sign-in" href="#">
+					Sign in
+				</a>
+				<a class="btn-shop" href="#">
+					<img src="assets/images/icon-bag-shopping.webp" alt="icon-bag-shopping">
+				</a>
+			</div>
+		</div>
+		<div class="overlay-menu-mobile">
+			<nav class="main-nav-mobile">
+				<ul class="main-menu-mobile">
+					<li class="menu-mobile-item">
+						<a class="menu-mobile-link" href="#">
+							women
+						</a>
+					</li>
+					<li class="menu-mobile-item">
+						<a class="menu-mobile-link" href="#">
+							Collections
+						</a>
+					</li>
+					<li class="menu-mobile-item">
+						<a class="menu-mobile-link has-submenu" href="#" data-submenu="editorial">
+							editorial
+							<span class="icon-dropdown-mobile">▲</span>
+						</a>
+						<ul class="sub-menu-mobile-list">
+							<li class="sub-menu-mobile-item">
+								<a class="sub-menu-mobile-link" href="#">
+									A.S.C
+								</a>
+							</li>
+							<li class="sub-menu-mobile-item">
+								<a class="sub-menu-mobile-link" href="#">
+									bazaar
+								</a>
+							</li>
+							<li class="sub-menu-mobile-item">
+								<a class="sub-menu-mobile-link" href="#">
+									ELLE
+								</a>
+							</li><li class="sub-menu-mobile-item">
+								<a class="sub-menu-mobile-link" href="#">
+									GQ
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu-mobile-item">
+						<a class="menu-mobile-link" href="#">
+							news
+						</a>
+					</li>
+					<li class="menu-mobile-item">
+						<a class="menu-mobile-link" href="#">
+							stories
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<img class="site-name-menu-mobile" src="assets/images/plaimanas.webp" alt="plaimanas">
+		</div>
+	</header>
+	<main class="site-main">
+		<img class="main-heading" src="assets/images/plaimanas.webp" alt="plaimanas">
+		<section class="sec_vdo">
+			<video loop autoplay muted playsinline preload="metadata" class="vdo-banner" src="assets/images/vdo-banner.mp4">
+				Your browser does not support the video tag.
+			</video>
+		</section>
+		<section class="sec_new">
+			<div class="container container-new">
+				<div class="box-img-overlay js-overlay" data-gap="60" data-start="-20">
+					<h2 class="title title-overlay">
+						new
+					</h2>
+					<img class="image-overlay new" src="assets/images/new-banner.webp" alt="new-banner">
+				</div>
+				<div class="box-content">
+					<div class="sub-title">
+						Sed egestas, nibh a condimentum imperdiet
+					</div>
+					<div class="description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie quam justo ut lacus. Proin vitae
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec_bestseller">
+			<div class="container container-bestseller">
+				<div class="vdo-bestseller js-overlay" data-gap="60" data-start="-100">
+					<h2 class="title title-overlay">
+						bestseller
+					</h2>
+					 <video class="vdo-overlay" loop autoplay muted playsinline preload="metadata" src="assets/images/vdo-bestseller.mp4">
+						Your browser does not support the video tag.
+					 </video>
+				</div>
+				<div class="box-content">
+					<div class="sub-title">
+						Sed egestas, nibh a condimentum imperdiet
+					</div>
+					<div class="description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie quam justo ut lacus. Proin vitae
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec_collection">
+			<div class="container container-collection">
+				<div class="box-img-overlay">
+					<h2 class="title title-overlay">
+						Collection 01
+					</h2>
+					<div class="box-image-hover">
+						<!-- ไม่แน่ใจเป็นรูปหรือวีดีโอ -->
+						<video class="ele-hover" loop autoplay muted playsinline src="assets/images/vdo-bestseller.mp4" preload="metadata" aria-hidden="true"></video>
+						<img class="image-overlay" src="assets/images/collection1.webp" alt="collection1">
+						
+					</div>
+				</div>
+				<div class="box-img-overlay">
+					<h2 class="title title-overlay">
+						Collection 02
+					</h2>
+					<div class="box-image-hover">
+						<img class="ele-hover" src="assets/images/hover-img.webp" alt="hover-image" aria-hidden="true">
+						<img class="image-overlay" src="assets/images/collection2.webp" alt="collection2">
+					</div>
+				</div>
+				<div class="box-img-overlay">
+					<h2 class="title title-overlay">
+						Collection 03
+					</h2>
+					<div class="box-image-hover">
+						<img class="ele-hover" src="assets/images/hover-img.webp" alt="hover-image" aria-hidden="true">
+						<img class="image-overlay" src="assets/images/collection3.webp" alt="collection3">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec_marquee">
+			<div class="marquee">
+				<div class="marquee-track">
+				  <img class="icon-arrow icon-right" src="assets/images/icon-left.webp" alt="" aria-hidden="true">
+				  <span> NEW ARRIVAL</span>
+				  <img class="icon-arrow icon-left" src="assets/images/icon-left.webp" alt="" aria-hidden="true">
+				  <span> BEST SELLING</span>
+				  <img class="icon-arrow icon-right" src="assets/images/icon-left.webp" alt="" aria-hidden="true">
+				  <span> NEW ARRIVAL</span>
+				  <img class="icon-arrow icon-left" src="assets/images/icon-left.webp" alt="" aria-hidden="true">
+				  <span> BEST SELLING</span>
+				  <img class="icon-arrow icon-right" src="assets/images/icon-left.webp" alt="" aria-hidden="true">
+				</div>
+			  </div>
+		</section>
+		<section class="sec_services">
+			<div class="container container-services">
+				<div class="card-service">
+					<div class="title-services">
+						Worldwide shipping
+					</div>
+					<div class="description-services">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie quam justo ut lacus. Proin vitae
+					</div>
+				</div>
+				<div class="card-service">
+					<div class="title-services">
+						customer service
+					</div>
+					<div class="description-services">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie quam justo ut lacus. Proin vitae
+					</div>
+				</div>
+				<div class="card-service">
+					<div class="title-services">
+						secure payment
+					</div>
+					<div class="description-services">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie quam justo ut lacus. Proin vitae
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec_faq">
+			<div class="container">
+				<h2 class="title-faq">FREQUENTLY ASKED QUESTIONS</h2>
+				<div class="sub-title-faq">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo.
+				</div>
+			
+				<div class="tabs">
+				<button class="tab-btn active" data-tab="orders">
+					ORDERS
+				</button>
+				<button class="tab-btn" data-tab="shipping">
+					SHIPPING
+				</button>
+				<button class="tab-btn" data-tab="returns">
+					RETURNS & EXCHANGES
+				</button>
+				<button class="tab-btn" data-tab="sizing">
+					Sizing & Products
+				</button>
+				</div>
+			
+				<div class="tab-content active" data-content="orders">
+					<div class="acc-item open">
+						<button class="acc-btn">
+							What is your return policy?
+							<img class="icon-arrow" src="assets/images/icon-arrow.webp" alt="icon-arrow">
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+				
+					<div class="acc-item">
+						<button class="acc-btn">
+							Can I exchange for a different size?
+							<img class="icon-arrow" src="assets/images/icon-arrow.webp" alt="icon-arrow">
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+
+					<div class="acc-item">
+						<button class="acc-btn">
+							Are sale items refundable?
+							<img class="icon-arrow" src="assets/images/icon-arrow.webp" alt="icon-arrow">
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+
+				</div>
+			
+				<div class="tab-content" data-content="shipping">
+					<div class="acc-item open">
+						<button class="acc-btn">
+							What is your return policy?
+							<span>⌄</span>
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+				
+					<div class="acc-item">
+						<button class="acc-btn">
+							Can I exchange for a different size?
+							<span>⌄</span>
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+				</div>
+			
+				<div class="tab-content" data-content="returns">
+					<div class="acc-item open">
+						<button class="acc-btn">
+							What is your return policy?
+							<span>⌄</span>
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-content" data-content="sizing">
+					<div class="acc-item open">
+						<button class="acc-btn">
+							What is your return policy?
+							<span>⌄</span>
+						</button>
+						<div class="acc-panel">
+							Items can be returned within 14 days of receipt, provided they are unworn, unwashed, and in original condition with tags attached.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec_form">
+			<div class="container container-form">
+				<div class="box-content">
+					<h2 class="title-form">
+						MAke an inquiry
+					</h2>
+					<div class="description-form">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare, nisl non rhoncus commodo.
+					</div>
+				</div>
+				<div class="box-form">
+					<form>
+					  <div class="form-mode">
+						<label class="radio">
+						  <input type="radio" name="mode" value="onsite" checked>
+						  <span>Onsite</span>
+						</label>
+				  
+						<label class="radio">
+						  <input type="radio" name="mode" value="hybrid">
+						  <span>Hybrid</span>
+						</label>
+					  </div>
+				  
+					  <div class="form-grid">
+				  
+						<div class="form-field">
+						  <label for="fullname">Full name*</label>
+						  <input type="text" name="fullname" id="fullname" required>
+						</div>
+				  
+						<div class="form-field">
+						  <label for="email">Email*</label>
+						  <input autocomplete="email" type="email"  name="email" id="email" value="Plaimanas@gmail.com" required>
+						</div>
+				  
+						<div class="form-field">
+						  <label for="phone">Phone Number*</label>
+						  <input type="tel" name="phone" id="phone" required>
+						</div>
+				  
+						<div class="form-field select-wrap">
+						  <label for="subject">Select Subject*</label>
+						  <img class="icon-form-dropdown" src="assets/images/icon-arrow.webp" alt="">
+						  <select id="subject" name="subject" required>
+							<option value=""></option>
+							<option>General Inquiry</option>
+							<option>Partnership</option>
+							<option>Support</option>
+						  </select>
+						</div>
+				  
+					  </div>
+				
+					  <div class="form-bottom">
+						<label class="checkbox">
+						  <input type="checkbox" required>
+						  <span class="terms-check">I agree to all terms & conditions</span>
+						</label>
+				  
+						<button type="submit" class="btn-submit">SEND</button>
+					  </div>
+				  
+					</form>
+				  </div>
+			</div>
+		</section>
+		<section class="sec_page-title">
+			<div class="container">
+				<h1 class="homepage-title">
+					Homepage
+				</h1>
+			</div>
+		</section>
+	</main>
+	<footer class="site-footer">
+		<div class="container container-footer">
+			<div class="box-menu">
+				<div class="menu-title-footer">
+					ABOUT
+				</div>
+				<nav>
+					<ul class="menu-footer-list">
+						<li class="menu-footer-item">
+							<a class="menu-footer-link" href="#">
+								Women
+							</a>
+						</li>
+						<li class="menu-footer-item">
+							<a class="menu-footer-link" href="#">
+								Collections
+							</a>
+						</li>
+						<li class="menu-footer-item">
+							<a class="menu-footer-link" href="#">
+								Editorial
+							</a>
+						</li>
+						<li class="menu-footer-item">
+							<a class="menu-footer-link" href="#">
+								Stories
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="box-menu">
+				<div class="menu-title-footer">
+					help
+				</div>
+				<ul class="menu-footer-list">
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Payment Notification
+						</a>
+					</li>
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Customer Service
+						</a>
+					</li>
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							FAQ
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box-menu">
+				<div class="menu-title-footer">
+					social
+				</div>
+				<ul class="menu-footer-list">
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Instagram
+						</a>
+					</li>
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Facebook
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box-menu">
+				<div class="menu-title-footer">
+					legal
+				</div>
+				<ul class="menu-footer-list">
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Terms & Conditions
+						</a>
+					</li>
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Privacy Policy
+						</a>
+					</li>
+					<li class="menu-footer-item">
+						<a class="menu-footer-link" href="#">
+							Cookies Policy
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="box-newsletter">
+				<div class="menu-title-footer">
+					NEWSLETTER
+				</div>
+				<form class="form-newsletter">
+					<input placeholder="Email" type="email">
+					<button class="btn-subscribe">
+						SUBSCRIBE
+					</button>
+				</form>
+			</div>
+			<div class="copyright">
+				<div class="site-name">
+					©PLAIMANAS
+				</div>
+				<div class="site-icon">
+					Web by ::*
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="editorial" class="overlay-sub-menu">
+		<div class="box-overlay">
+			<div class="overlay-sub-menu-title">
+				editorial
+			</div>
+			<ul class="overlay-sub-menu-list">
+				<li class="overlay-sub-menu-item">
+					<a class="overlay-sub-menu-link" href="#">
+						A.S.C
+					</a>
+				</li>
+				<li class="overlay-sub-menu-item">
+					<a class="overlay-sub-menu-link" href="#">
+						bazaar
+					</a>
+				</li>
+				<li class="overlay-sub-menu-item">
+					<a class="overlay-sub-menu-link" href="#">
+						ELLE
+					</a>
+				</li><li class="overlay-sub-menu-item">
+					<a class="overlay-sub-menu-link" href="#">
+						GQ
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

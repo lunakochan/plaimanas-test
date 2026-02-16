@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "PlaimanasFont";
+  /* ใช้ฟอนต์จากเครื่องผู้ใช้ (เช่น Thai UI/Segoe UI/Arial) */
+  src: local("TH Sarabun New"), local("Leelawadee UI"), local("Tahoma"),
+       local("Segoe UI"), local("Helvetica Neue"), local("Arial");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "PlaimanasFont", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
