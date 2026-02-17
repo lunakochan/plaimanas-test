@@ -335,7 +335,7 @@ ul {
   transition: 0.5s all ease;
 }
 
-.btn-shop {
+.btn-shop img {
   width: 17px;
 }
 
@@ -1054,6 +1054,7 @@ a.box-content:hover {
 .btn-subscribe {
   margin-top: 18px;
   padding: 10px;
+  color: #000;
   border: 0;
   background-color: #E0E0E0;
 }
