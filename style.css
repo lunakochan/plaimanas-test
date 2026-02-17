@@ -854,6 +854,8 @@ a.box-content:hover {
   position: relative;
   margin-left: 10px;
   color: #0000004D;
+  top: 18px;
+  position: relative;
   transition: 0.3s all ease;
 }
 
@@ -864,7 +866,6 @@ a.box-content:hover {
   top: -6px;
   left: 0;
   transition: 0.3s all ease;
-  position: relative;
 }
 
 .form-field input,
@@ -877,6 +878,10 @@ a.box-content:hover {
   outline: none;
   padding-bottom: 10px;
   border-radius: 0;
+  color: #000;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .form-field input:focus,
