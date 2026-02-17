@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Mobile menu toggle
 	const toggleBtn = document.querySelector('.btn-menu-mobile-toggle');
 	const overlayMenuMobile = document.querySelector('.overlay-menu-mobile');
+	const body = document.body;
 
 	if (toggleBtn && overlayMenuMobile) {
 		const icons = toggleBtn.querySelectorAll('.icon-toggle');
@@ -105,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		toggleBtn.addEventListener('click', function () {
 			icons.forEach(icon => icon.classList.toggle('active'));
 			overlayMenuMobile.classList.toggle('active');
+			body.classList.toggle('menu-open'); // 👈 เพิ่มบรรทัดนี้
 		});
 	}
 
