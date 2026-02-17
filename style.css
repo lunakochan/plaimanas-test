@@ -1057,6 +1057,9 @@ a.box-content:hover {
   color: #000;
   border: 0;
   background-color: #E0E0E0;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .copyright {
